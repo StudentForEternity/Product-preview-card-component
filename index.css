@@ -87,13 +87,19 @@ img {
 
 .product-btn {
   display: flex;
-  padding: 1em 3em;
+  padding: 1em 7.5em;
   border-radius: 10px;
   border: 0;
   background-color: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
   font-weight: 700;
   cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .product-btn {
+    padding: 1em 5.5em;
+  }
 }
 
 .product-btn img {
